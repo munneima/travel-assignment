@@ -1,0 +1,328 @@
+
+/* Responsive All Device */
+
+
+@media only screen and (min-width: 992px) and (max-width: 1180px) {
+  .container {
+    padding: 0 4%;
+  }
+
+  .deals-section .deals-item .deals-text {
+    width: 80%;
+    top: 50%;
+    right: 5%;
+  }
+  .hero-section .hero-text p {
+    margin: 16px auto 0;
+  }
+  .hero-section .hero-text h1 {
+    font-size: 48px;
+  }
+
+  .deals-section .deals-item {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 129px;
+  }
+
+  .deals-img {
+    overflow: hidden;
+  }
+  .deals-img img {
+    height: 500px;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .hamburger-menu {
+    display: block;
+  }
+
+  .hamburger-menu .hamburger-menu-icon {
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+
+  .hamburger-menu .hamburger-menu-icon:hover {
+    color: #ff5400;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .container {
+    padding: 0 4%;
+  }
+  .menu {
+    display: none;
+  }
+  .hero-section .hero-booking-form {
+    width: 100%;
+  }
+  .hero-section .hero-text {
+    width: 85%;
+  }
+  .hero-section .hero-text h1 {
+    font-size: 52px;
+  }
+  .popular-tour-section .popular-tour-content {
+    row-gap: 40px;
+  }
+  .popular-tour-section .popular-text {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .popular-tour-section .popular-img {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  .popular-tour-section .popular-img img {
+    width: 100%;
+  }
+  .section-title-wrapper h2 {
+    font-size: 34px;
+  }
+  .brand-section .brand-content {
+    row-gap: 35px;
+  }
+  .brand-section .brand-item {
+    flex-basis: 45%;
+    max-width: 45%;
+  }
+  .deals-section .deals-item {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 129px;
+  }
+
+  .deals-img {
+    overflow: hidden;
+  }
+  .deals-img img {
+    height: 500px;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+  .deals-section .deals-item .deals-text {
+    right: 10%;
+  }
+  .place-section .place-content {
+    row-gap: 40px;
+  }
+  .place-section .place-text {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .place-section .place-video {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .newsletter-section .newsletter-content {
+    row-gap: 40px;
+  }
+  .newsletter-section .newsletter-form {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .newsletter-section .newsletter-img {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  iframe {
+    height: 200px;
+}
+  section {
+    padding: 20px 0;
+  }
+  .brand-section .brand-content {
+    row-gap: 35px;
+  }
+  .brand-section .brand-item {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .container {
+    padding: 0 4%;
+  }
+  .menu {
+    display: none;
+  }
+  .header-section .logo img {
+    width: 28px;
+  }
+  .header-section .logo a {
+    font-size: 22px;
+  }
+  .hero-section .hero-booking-form {
+    width: 100%;
+  }
+  .hero-section .hero-booking-form form {
+    row-gap: 18px;
+  }
+  .hero-section .hero-text{
+    width: 85%;
+  }
+  .hero-section .hero-content {
+    height: 580px;
+  }
+  .hero-section .hero-text h1 {
+    font-size: 22px;
+  }
+  .hero-section .hero-booking-form form .form-input,
+  .hero-section .hero-booking-form form .form-select,
+  .hero-section .hero-booking-form form .hero-form-btn {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .popular-tour-section .popular-tour-content {
+    row-gap: 40px;
+  }
+  .popular-tour-section .popular-text {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .popular-tour-section .popular-img {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  .popular-tour-section .popular-img img {
+    width: 100%;
+  }
+  .section-title h2 {
+    font-size: 20px;
+  }
+  .section-title p {
+    font-size: 14px;
+    margin: 16px auto 0;
+  }
+  .deals-section .deals-item {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 129px;
+  }
+
+  .deals-img {
+    overflow: hidden;
+  }
+  .deals-img img {
+    height: 500px;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+  .destination-section .destination-content .destination-item h3 {
+    font-size: 20px;
+}
+  .destination-section .destination-content {
+    margin-top: 60px;
+  }
+  .destination-section .destination-content {
+    grid-auto-rows: 176px;
+  }
+  .destination-item {
+    grid-column: span 2;
+  }
+  .deals-section .deals-item .deals-text {
+    right: 10%;
+  }
+  .place-section .place-content {
+    row-gap: 40px;
+  }
+  .place-section .place-text {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .place-section .place-video {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .newsletter-section .newsletter-content {
+    row-gap: 40px;
+  }
+  .newsletter-section .newsletter-form {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .newsletter-section .newsletter-img {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .choose-section .choose-item {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .deals-section .deals-item {
+    margin-top: 32px;
+  }
+  .deals-section .deals-item .deals-text {
+    right: 0%;
+    top: 62%;
+    padding: 20px;
+    margin: 12px;
+  }
+  .deals-section .deals-item .deals-text .deals-meta {
+    row-gap: 15px;
+    flex-wrap: wrap;
+  }
+  .deals-section .deals-item .deals-text h4 {
+    font-size: 20px;
+  }
+  .deals-section .deals-item .deals-text p {
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .deals-section .deals-item .deals-text .price {
+    font-size: 16px;
+  }
+  .deals-section .deals-item:nth-child(2) .deals-text{
+    left: 0;
+  }
+  .place-section .place-text .place-feature-list ul li {
+    font-size: 14px;
+  }
+  .newsletter-section .newsletter-form p {
+    margin-bottom: 10px;
+  }
+  .footer-section {
+    padding: 60px 0;
+  }
+  .newsletter-section .newsletter-img img {
+    height: 300px;
+  }
+  .newsletter-section .newsletter-img .newsletter-coupon-text p {
+    font-size: 15px;
+  }
+  .newsletter-section .newsletter-img .newsletter-coupon-text h4 {
+    font-size: 21px;
+  }
+  .newsletter-section .newsletter-img .newsletter-coupon-text {
+    bottom: 17%;
+    right: 4%;
+    width: 220px;
+    height: 95px;
+    padding: 15px 20px;
+  }
+  .footer-section .footer-logo img {
+    width: 28px;
+  }
+  .footer-section .footer-logo a {
+    font-size: 21px;
+  }
+  .footer-section p {
+    font-size: 14px;
+  }
+}
+
+
